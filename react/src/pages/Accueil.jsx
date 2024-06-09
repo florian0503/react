@@ -24,7 +24,7 @@ const Accueil = () => {
       <div className="grid-container">
         {pokemonList.map((pokemon, index) => (
           <div key={index} className="pokemon-item">
-            <Link to={`/pokemon/${index + 1}`}>
+            <Link to={`/pokem/${index + 1}`}>
               <img
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`}
                 alt={pokemon.name}

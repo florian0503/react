@@ -160,3 +160,47 @@ p {
   line-height: 1.5;
   margin-bottom: 15px;
 }
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.pokemon-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.pokemon-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pokemon-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pokemon-types-title,
+.pokemon-abilities-title,
+.pokemon-stats-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pokemon-types,
+.pokemon-abilities,
+.pokemon-stats {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-type,
+.pokemon-ability,
+.pokemon-stat {
+  margin-bottom: 5px;
+}
